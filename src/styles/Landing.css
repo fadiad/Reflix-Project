@@ -1,0 +1,12 @@
+#main{
+    text-align: center;
+}
+
+#users{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-auto-rows: 300px;
+}

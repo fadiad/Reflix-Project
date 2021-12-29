@@ -1,0 +1,45 @@
+.Catalog{
+    display: grid;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    /* grid-gap: 20px; */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-auto-rows: 300px; */
+    border-top: 1px solid black;
+}
+.rentedCatalog{
+    display: grid;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-bottom: 20px;
+}
+
+.searchedMovie{
+    display: grid;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    /* grid-gap: 20px; */
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+@media(max-width:1000px ){
+    .Catalog{
+        grid-template-columns: 1fr 1fr;
+    }
+    .rentedCatalog{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:700px){
+    .Catalog{
+        grid-template-columns: 1fr;
+    }
+    .rentedCatalog{
+        grid-template-columns: 1fr;
+    }
+
+}
+
